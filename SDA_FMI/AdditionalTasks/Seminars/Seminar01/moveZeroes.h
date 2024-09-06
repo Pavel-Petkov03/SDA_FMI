@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-
+#include "../../../Utils/printer.h"
 class Solution  {
 public:
 	void moveZeroes(std::vector<int>& arr) {
@@ -12,8 +12,6 @@ public:
 				arr[arr.size() - 1] = 0;
 			}
 		}
-		for (int i = 0; i < arr.size(); i++) {
-			std::cout << arr[i] << " ";
-		}
+		printVector(arr);
 	}
 };

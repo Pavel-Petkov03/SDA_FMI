@@ -7,6 +7,6 @@
 int main()
 {
 	Solution s;
-	std::vector<int> v{9,9,9};
+	std::vector<int> v{1,9,9};
 	s.plusOne(v);
 }

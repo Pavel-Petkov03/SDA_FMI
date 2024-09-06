@@ -1,13 +1,11 @@
 #include <iostream>
 #include <vector>
-
+#include "../../../Utils/printer.h"
 class Solution {
 public:
 	void plusOne(std::vector<int>& v) {
 		std::vector<int> result = this->plusOne__rec(v, v.size() - 1);
-		for (int i = 0; i < result.size(); i++) {
-			std::cout << result[i] << " ";
-		}
+		printVector(result);
 	}
 private:
 	std::vector<int> plusOne__rec(std::vector<int>& v, int currentIndex) {
