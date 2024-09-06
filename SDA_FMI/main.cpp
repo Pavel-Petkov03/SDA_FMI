@@ -1,13 +1,12 @@
-// SDA_FMI.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
+
+// the solutions of all exercises will be in h files for easier testing(not conventional)
+#include "AdditionalTasks/Seminars/Seminar01/moveZeroes.h"
 #include <iostream>
-
+#include <vector>
 int main()
 {
-    std::cout << "Hello World12!\n";
-    for(int i = 0; i < 5; i++){
-
-
-    }
+	Solution s;
+	std::vector<int> v{0, 1, 0 , 20 , 0 , 30};
+	s.moveZeroes(v);
 }
