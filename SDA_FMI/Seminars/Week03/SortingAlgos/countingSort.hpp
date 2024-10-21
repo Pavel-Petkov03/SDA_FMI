@@ -26,7 +26,7 @@ void countingSort(int* arr, size_t size) {
 
 	for (int i = size - 1; i >= 0; i--) {
 		arr[countArr[arrCopy[i]] - 1] = arrCopy[i];
-		countArr[arrCopy[i]]--;
+		countArr[arrCopy[i]]--; // arrCopy[i] V i >= 0 INACHE NE BACA
 	}
 	
 }
