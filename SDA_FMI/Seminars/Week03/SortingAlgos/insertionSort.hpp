@@ -1,5 +1,3 @@
-
-
 template<typename T>
 void insertionSort(T* arr, size_t size) {
 	for (int i = 1; i < size; i++) {
