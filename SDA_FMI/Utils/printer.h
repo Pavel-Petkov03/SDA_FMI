@@ -19,3 +19,11 @@ void printVectorMatrix(std::vector<std::vector<T>>& vec ) {
 		std::cout << '\n';
 	}
 }
+
+
+template<typename T>
+void printArr(const T& arr, size_t size) {
+	for (int i = 0; i < size; i++) {
+		std::cout << arr[i] << " ";
+	}
+}
